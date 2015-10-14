@@ -20,7 +20,7 @@ final class RSpecTestEngine extends ArcanistUnitTestEngine {
   }
 
   public function shouldEchoTestResults() {
-    return true;
+    return false;
   }
 
   private function parseOutput($output) {
